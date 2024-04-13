@@ -1,0 +1,25 @@
+while True:
+    num1 = int(input("Digite o primeiro numero: "))
+    operacao = ''
+    operacao = (input("Selecione a operacao: "))
+    num2 = int(input("Digite o segundo numero: "))
+
+
+    if operacao == '+':
+        resultado = num1 + num2 
+        print ("o resultado da operação é = ", resultado)
+    elif operacao == '-':
+        num1 - num2
+        resultado = num1 - num2 
+        print ("o resultado da operação é = ", resultado)
+    elif operacao == '*':
+        num1 * num2
+        resultado = num1 * num2 
+        print ("o resultado da operação é = ", resultado)
+    elif operacao == '/':
+        num1 / num2
+        resultado = num1 / num2 
+        print ("o resultado da operação é = ", resultado)
+
+    else: 
+        print ("Operação inválida.")
